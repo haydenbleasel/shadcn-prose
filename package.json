@@ -1,6 +1,6 @@
 {
   "name": "shadcn-prose",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Prose styles for shadcn/ui, including headings, paragraphs, lists and more.",
   "repository": {
     "type": "git",
