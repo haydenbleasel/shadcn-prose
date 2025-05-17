@@ -1,3 +1,15 @@
+# v1.0.4 (Sat May 17 2025)
+
+#### ⚠️ Pushed to `main`
+
+- Fix responsive design, add github link ([@haydenbleasel](https://github.com/haydenbleasel))
+
+#### Authors: 1
+
+- Hayden Bleasel ([@haydenbleasel](https://github.com/haydenbleasel))
+
+---
+
 # v1.0.3 (Sat May 17 2025)
 
 #### ⚠️ Pushed to `main`
