@@ -70,7 +70,7 @@
   }
 
   & pre {
-    @apply bg-muted rounded-md p-4 my-6 text-sm;
+    @apply bg-muted rounded-md p-4 my-6 text-sm overflow-y-auto;
   }
 
   & code:not(pre code) {
