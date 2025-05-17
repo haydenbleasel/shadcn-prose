@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+.typography {
+  @apply max-w-[65ch] text-foreground;
+
+  & h1 {
+    @apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl;
+  }
+
+  & h2 {
+    @apply scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-12 first:mt-0;
+  }
+
+  & h3 {
+    @apply scroll-m-20 text-2xl font-semibold mt-12 tracking-tight first:mt-0;
+  }
+
+  & h4 {
+    @apply scroll-m-20 text-xl font-semibold mt-12 tracking-tight first:mt-0;
+  }
+
+  & h5 {
+    @apply scroll-m-20 text-lg font-semibold mt-12 tracking-tight first:mt-0;
+  }
+
+  & h6 {
+    @apply scroll-m-20 text-base font-semibold mt-12 tracking-tight first:mt-0;
+  }
+
+  & h1, & h2, & h3, & h4, & h5, & h6 {
+    & + p {
+      @apply mt-0;
+    }
+  }
+
+  & p {
+    @apply leading-7 [&:not(:first-child)]:mt-6;
+  }
+
+  & a {
+    @apply font-medium text-primary underline underline-offset-4;
+  }
+
+  & blockquote {
+    @apply mt-6 border-l-2 pl-6 italic;
+  }
+
+  & table {
+    @apply my-6 w-full overflow-y-auto;
+
+    & thead tr {
+      @apply m-0 border-t p-0 even:bg-muted;
+    }
+
+    & th {
+      @apply border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right;
+    }
+
+    & tbody tr {
+      @apply m-0 border-t p-0 even:bg-muted;
+    }
+
+    & td {
+      @apply border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right;
+    }
+  }
+
+  & ul {
+    @apply my-6 ml-6 list-disc [&>li]:mt-2;
+  }
+
+  & pre {
+    @apply bg-muted rounded-md p-4 my-6 text-sm;
+  }
+
+  & code:not(pre code) {
+    @apply relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold;
+  }
+
+  & .lead {
+    @apply text-xl text-muted-foreground
+  }
+
+  & .large {
+    @apply text-lg font-semibold;
+  }
+
+  & .small {
+    @apply text-sm font-medium leading-none;
+  }
+
+  & .muted {
+    @apply text-sm text-muted-foreground;
+  }
+
+  & img, & picture, & video {
+    @apply my-6;
+  }
+
+  & picture > img {
+    @apply my-0;
+  }
+
+  & kbd {
+    @apply rounded-md bg-muted px-1.5 py-0.5 text-xs font-semibold;
+  }
+}
