@@ -1,29 +1,29 @@
 {
-  "name": "shadcn-typography",
+  "name": "shadcn-prose",
   "version": "1.0.0",
   "description": "Prose styles for shadcn/ui, including headings, paragraphs, lists and more.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haydenbleasel/shadcn-typography.git"
+    "url": "git+https://github.com/haydenbleasel/shadcn-prose.git"
   },
   "files": [
-    "website/app/typography.css"
+    "website/app/prose.css"
   ],
   "exports": {
-    ".": "./website/app/typography.css"
+    ".": "./website/app/prose.css"
   },
   "keywords": [
     "shadcn",
-    "typography",
+    "prose",
     "css",
     "prose"
   ],
   "author": "Hayden Bleasel <hello@haydenbleasel.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/haydenbleasel/shadcn-typography/issues"
+    "url": "https://github.com/haydenbleasel/shadcn-prose/issues"
   },
-  "homepage": "https://github.com/haydenbleasel/shadcn-typography#readme",
+  "homepage": "https://github.com/haydenbleasel/shadcn-prose#readme",
   "devDependencies": {
     "@auto-it/first-time-contributor": "^11.3.0",
     "@biomejs/biome": "1.9.4",

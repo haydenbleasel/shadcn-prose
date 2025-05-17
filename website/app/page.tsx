@@ -1,4 +1,4 @@
-const TypographyDemo = () => (
+const ProseDemo = () => (
   <>
     <h1>
       The Joke Tax Chronicles
@@ -118,7 +118,7 @@ const TypographyDemo = () => (
 const Home = () => (
   <div className="grid grid-cols-3 divide-x border-x">
     <header className="p-12">
-      <div className="typography mx-auto">
+      <div className="prose mx-auto">
         <svg width={48} height={48} viewBox="0 0 154 154" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_2141_29)">
             <path d="M124.801 76.8L76.8008 124.8" stroke="black" stroke-width="19.2" stroke-linecap="round" stroke-linejoin="round" />
@@ -130,25 +130,25 @@ const Home = () => (
             </clipPath>
           </defs>
         </svg>
-        <h1 className="mt-8">shadcn-typography</h1>
+        <h1 className="mt-8">shadcn-prose</h1>
         <p>A drop-in replacement for <code>@tailwindcss/typography</code>, designed for use with shadcn/ui. Includes headings, paragraphs, lists and more.</p>
         <h2>Installation</h2>
         <p>Simply install the package:</p>
-        <pre>npm install -D shadcn-typography</pre>
+        <pre>npm install -D shadcn-prose</pre>
         <p>Then update your <code>globals.css</code>:</p>
-        <pre>@import 'shadcn-typography';</pre>
+        <pre>@import 'shadcn-prose';</pre>
         <h2>Usage</h2>
-        <p>Add a <code>typography</code> class to your content and you're good to go:</p>
-        <pre>{`<div className="typography">
+        <p>Add a <code>prose</code> class to your content and you're good to go:</p>
+        <pre>{`<div className="prose">
   <h1>Hello world</h1>
   <p>This is a paragraph</p>
 </div>`}</pre>
-        <p>On the right is an example of the typography styles in action.</p>
+        <p>On the right is an example of the prose styles in action.</p>
       </div>
     </header>
     <main className="col-span-2 px-12 py-24 bg-secondary">
-      <div className="typography mx-auto">
-        <TypographyDemo />
+      <div className="prose mx-auto">
+        <ProseDemo />
       </div>
     </main>
   </div>

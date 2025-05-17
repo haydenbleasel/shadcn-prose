@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-.typography {
+.prose {
   @apply max-w-[65ch] text-foreground;
 
   & h1 {

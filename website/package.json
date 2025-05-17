@@ -29,5 +29,15 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.17",
     "typescript": "^5.8.2"
+  },
+  "repository": "haydenbleasel/shadcn-prose",
+  "author": "Hayden Bleasel <hello@haydenbleasel.com>",
+  "auto": {
+    "plugins": [
+      "npm",
+      "all-contributors",
+      "first-time-contributor",
+      "released"
+    ]
   }
 }
