@@ -20,16 +20,8 @@ const mono = Geist_Mono({
 
 const RootLayout = ({ children }: RootLayoutProps) => (
   <html lang="en" suppressHydrationWarning className="scroll-smooth">
-    <body
-      className={cn(
-        sans.variable,
-        mono.variable,
-        'font-sans antialiased'
-      )}
-    >
-      <div className="container mx-auto">
-        {children}
-      </div>
+    <body className={cn(sans.variable, mono.variable, 'font-sans antialiased')}>
+      <div className="container mx-auto">{children}</div>
       <Analytics />
     </body>
   </html>
