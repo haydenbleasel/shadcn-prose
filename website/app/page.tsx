@@ -191,6 +191,18 @@ const Home = () => (
   <p>This is a paragraph</p>
 </div>`}</pre>
         <p>On the right is an example of the prose styles in action.</p>
+        <p>
+          You can opt-out of the styles by adding the <code>not-prose</code>{' '}
+          class:
+        </p>
+        <pre>
+          {`<div className="prose">
+  <h1>Hello world</h1>
+  <div className="not-prose">
+    <p>This is a paragraph</p>
+  </div>
+</div>`}
+        </pre>
       </div>
     </header>
     <main className="bg-secondary px-12 py-24 lg:col-span-2">

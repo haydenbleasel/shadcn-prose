@@ -3,49 +3,49 @@
 .prose {
   @apply max-w-[65ch] text-foreground;
 
-  & h1 {
+  & h1:not(.not-prose h1) {
     @apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl;
   }
 
-  & h2 {
+  & h2:not(.not-prose h2) {
     @apply scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-12 first:mt-0;
   }
 
-  & h3 {
+  & h3:not(.not-prose h3) {
     @apply scroll-m-20 text-2xl font-semibold mt-12 tracking-tight first:mt-0;
   }
 
-  & h4 {
+  & h4:not(.not-prose h4) {
     @apply scroll-m-20 text-xl font-semibold mt-12 tracking-tight first:mt-0;
   }
 
-  & h5 {
+  & h5:not(.not-prose h5) {
     @apply scroll-m-20 text-lg font-semibold mt-12 tracking-tight first:mt-0;
   }
 
-  & h6 {
+  & h6:not(.not-prose h6) {
     @apply scroll-m-20 text-base font-semibold mt-12 tracking-tight first:mt-0;
   }
 
-  & h1, & h2, & h3, & h4, & h5, & h6 {
+  & h1:not(.not-prose h1), & h2:not(.not-prose h2), & h3:not(.not-prose h3), & h4:not(.not-prose h4), & h5:not(.not-prose h5), & h6:not(.not-prose h6) {
     & + p {
       @apply mt-0;
     }
   }
 
-  & p {
+  & p:not(.not-prose p) {
     @apply leading-7 [&:not(:first-child)]:mt-6;
   }
 
-  & a {
+  & a:not(.not-prose a) {
     @apply font-medium text-primary underline underline-offset-4;
   }
 
-  & blockquote {
+  & blockquote:not(.not-prose blockquote) {
     @apply mt-6 border-l-2 pl-6 italic;
   }
 
-  & table {
+  & table:not(.not-prose table) {
     @apply my-6 w-full overflow-y-auto;
 
     & thead tr {
@@ -65,43 +65,43 @@
     }
   }
 
-  & ul {
+  & ul:not(.not-prose ul) {
     @apply my-6 ml-6 list-disc [&>li]:mt-2;
   }
 
-  & pre {
+  & pre:not(.not-prose pre) {
     @apply bg-muted rounded-md p-4 my-6 text-sm overflow-y-auto;
   }
 
-  & code:not(pre code) {
+  & code:not(pre code):not(.not-prose code) {
     @apply relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold;
   }
 
-  & .lead {
+  & .lead:not(.not-prose .lead) {
     @apply text-xl text-muted-foreground
   }
 
-  & .large {
+  & .large:not(.not-prose .large) {
     @apply text-lg font-semibold;
   }
 
-  & .small {
+  & .small:not(.not-prose .small) {
     @apply text-sm font-medium leading-none;
   }
 
-  & .muted {
+  & .muted:not(.not-prose .muted) {
     @apply text-sm text-muted-foreground;
   }
 
-  & img, & picture, & video {
+  & img:not(.not-prose img), & picture:not(.not-prose picture), & video:not(.not-prose video) {
     @apply my-6;
   }
 
-  & picture > img {
+  & picture > img:not(.not-prose picture > img) {
     @apply my-0;
   }
 
-  & kbd {
+  & kbd:not(.not-prose kbd) {
     @apply rounded-md bg-muted px-1.5 py-0.5 text-xs font-semibold;
   }
 }
