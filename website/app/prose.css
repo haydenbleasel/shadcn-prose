@@ -104,4 +104,8 @@
   & kbd:not(.not-prose kbd) {
     @apply rounded-md bg-muted px-1.5 py-0.5 text-xs font-semibold;
   }
+
+  & hr {
+    @apply my-10;
+  }
 }
