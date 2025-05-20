@@ -7,7 +7,7 @@ A drop-in replacement for `@tailwindcss/typography`, designed for use with shadc
 Simply install the package:
 
 ```bash
-npm install -D shadcn-prose
+npm i shadcn-prose
 ```
 
 Then update your `globals.css`:

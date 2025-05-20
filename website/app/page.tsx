@@ -177,7 +177,7 @@ const Home = () => (
         </p>
         <h2>Installation</h2>
         <p>Simply install the package:</p>
-        <pre>npm install -D shadcn-prose</pre>
+        <pre>npm i shadcn-prose</pre>
         <p>
           Then update your <code>globals.css</code>:
         </p>
