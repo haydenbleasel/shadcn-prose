@@ -7,11 +7,13 @@
     "url": "git+https://github.com/haydenbleasel/shadcn-prose.git"
   },
   "files": [
-    "website/app/prose.css"
+    "website/app/prose.css",
+    "bin/shadcn-prose.js"
   ],
   "exports": {
     ".": "./website/app/prose.css"
   },
+  "bin": "./bin/shadcn-prose.js",
   "keywords": [
     "shadcn",
     "prose",
