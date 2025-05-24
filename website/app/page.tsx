@@ -1,86 +1,157 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 
 const ProseDemo = () => (
   <>
-    <h1>The Joke Tax Chronicles</h1>
+    <h1>Styling the Web: A Modern CSS Journey</h1>
+
     <p>
-      Once upon a time, in a far-off land, there was a very lazy king who spent
-      all day lounging on his throne. One day, his advisors came to him with a
-      problem: the kingdom was running out of money.
+      CSS has come a long way since its inception. From simple layout tweaks to
+      complex responsive designs, it's become an essential tool for crafting
+      delightful web experiences. In this article, we’ll explore various HTML
+      elements commonly styled with modern CSS utility systems like{' '}
+      <code>tailwindcss</code>
+      and component libraries.
     </p>
-    <h2>The King's Plan</h2>
+
+    <h2>Introduction</h2>
     <p>
-      The king thought long and hard, and finally came up with{' '}
-      <a href="#">a brilliant plan</a>: he would tax the jokes in the kingdom.
+      Web design today is more accessible than ever. Thanks to utility-first
+      frameworks and component-based architectures, developers can build
+      beautiful UIs with less effort.
     </p>
-    <blockquote>
-      "After all," he said, "everyone enjoys a good joke, so it's only fair that
-      they should pay for the privilege."
-    </blockquote>
-    <h3>The Joke Tax</h3>
-    <p>
-      The king's subjects were not amused. They grumbled and complained, but the
-      king was firm:
-    </p>
+
+    <h3>Key Benefits of Utility CSS</h3>
     <ul>
-      <li>1st level of puns: 5 gold coins</li>
-      <li>2nd level of jokes: 10 gold coins</li>
-      <li>3rd level of one-liners : 20 gold coins</li>
+      <li>Faster development</li>
+      <li>Consistent design system</li>
+      <li>Better collaboration between dev and design</li>
     </ul>
+
+    <h3>What You Need</h3>
+    <ol>
+      <li>Basic HTML/CSS knowledge</li>
+      <li>Code editor (e.g., VS Code)</li>
+      <li>Modern browser for testing</li>
+    </ol>
+
+    <h2>Checklist</h2>
+    <ul>
+      <li>
+        <input type="checkbox" checked disabled /> <p>Install Tailwind CSS</p>
+      </li>
+      <li>
+        <input type="checkbox" disabled /> <p>Configure PostCSS</p>
+      </li>
+      <li>
+        <input type="checkbox" disabled /> <p>Create base components</p>
+      </li>
+    </ul>
+
+    <h2>Sample Image</h2>
     <p>
-      As a result, people stopped telling jokes, and the kingdom fell into a
-      gloom. But there was one person who refused to let the king's foolishness
-      get him down: a court jester named Jokester.
+      Here's a sample image to test image styling. Make sure it scales well on
+      all screen sizes.
     </p>
-    <h3>Jokester's Revolt</h3>
+    <center>
+      <Image
+        src="https://placehold.co/600x400"
+        unoptimized
+        alt="Cute kitten"
+        width={600}
+        height={400}
+      />
+    </center>
+
+    <h2>Code Example</h2>
+    <pre>
+      <code>{`/* Tailwind example */
+.button {
+  @apply px-4 py-2 bg-blue-600 text-white rounded;
+}`}</code>
+    </pre>
+
+    <h2>Blockquote</h2>
+    <blockquote>
+      "Design is not just what it looks like and feels like. Design is how it
+      works." — Steve Jobs
+    </blockquote>
+
+    <h2>Table Example</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Framework</th>
+          <th>Type</th>
+          <th>Stars</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tailwind CSS</td>
+          <td>Utility-First</td>
+          <td>70k+</td>
+        </tr>
+        <tr>
+          <td>Bootstrap</td>
+          <td>Component-Based</td>
+          <td>160k+</td>
+        </tr>
+        <tr>
+          <td>Bulma</td>
+          <td>Utility/Component Hybrid</td>
+          <td>45k+</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Inline Elements</h2>
     <p>
-      Jokester began sneaking into the castle in the middle of the night and
-      leaving jokes all over the place: under the king's pillow, in his soup,
-      even in the royal toilet. The king was furious, but he couldn't seem to
-      stop Jokester.
+      You can <strong>bold</strong> text, <em>italicize</em> it,{' '}
+      <u>underline</u> it, or even add <a href="https://example.com">links</a>.
+      Here’s some <code>inline code</code> too.
     </p>
+
+    <h2>Definition List</h2>
+    <dl>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets</dd>
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language</dd>
+      <dt>JS</dt>
+      <dd>JavaScript</dd>
+    </dl>
+
+    <h2>Details and Summary</h2>
+    <details>
+      <summary>Click to expand additional info</summary>
+      <p>
+        Utility CSS simplifies the process of managing and scaling CSS in large
+        projects.
+      </p>
+    </details>
+
+    <h2>Inline Elements</h2>
     <p>
-      And then, one day, the people of the kingdom discovered that the jokes
-      left by Jokester were so funny that they couldn't help but laugh. And once
-      they started laughing, they couldn't stop.
+      You can <strong>bold</strong> text, <em>italicize</em> it,{' '}
+      <u>underline</u> it, or even add <a href="https://example.com">links</a>.
+      Here’s some <code>inline code</code> too.{' '}
+      <mark>Highlight important info</mark> and <small>small text size</small>.{' '}
+      <abbr title="HyperText Markup Language">HTML</abbr> is the foundation of
+      the web.
     </p>
-    <h3>The People's Rebellion</h3>
+
+    <h2>Superscript & Subscript</h2>
     <p>
-      The people of the kingdom, feeling uplifted by the laughter, started to
-      tell jokes and puns again, and soon the entire kingdom was in on the joke.
+      E = mc<sup>2</sup> is Einstein's mass-energy equivalence. Water is H
+      <sub>2</sub>O.
     </p>
-    <div>
-      <table>
-        <thead>
-          <tr>
-            <th>King's Treasury</th>
-            <th>People's happiness</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Empty</td>
-            <td>Overflowing</td>
-          </tr>
-          <tr>
-            <td>Modest</td>
-            <td>Satisfied</td>
-          </tr>
-          <tr>
-            <td>Full</td>
-            <td>Ecstatic</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+
+    <h2>Conclusion</h2>
     <p>
-      The king, seeing how much happier his subjects were, realized the error of
-      his ways and repealed the joke tax. Jokester was declared a hero, and the
-      kingdom lived happily ever after.
-    </p>
-    <p>
-      The moral of the story is: never underestimate the power of a good laugh
-      and always be careful of bad ideas.
+      Whether you're using Tailwind, vanilla CSS, or any other system, a solid
+      understanding of how HTML elements behave is key to great styling. Test
+      extensively to ensure consistent, accessible results across devices.
     </p>
   </>
 );
@@ -157,7 +228,7 @@ const GithubIcon = () => (
 
 const Home = () => (
   <div className="grid divide-y border-x lg:grid-cols-3 lg:divide-x lg:divide-y-0">
-    <header className="p-12">
+    <header className="bg-secondary p-12">
       <div className="prose mx-auto">
         <div className="flex items-center justify-between gap-4">
           <ShadcnLogo />
@@ -177,16 +248,16 @@ const Home = () => (
         </p>
         <h2>Installation</h2>
         <p>Simply install the package:</p>
-        <pre>npm i shadcn-prose</pre>
+        <pre className="!bg-background border">npm i shadcn-prose</pre>
         <p>
           Then update your <code>globals.css</code>:
         </p>
-        <pre>@import 'shadcn-prose';</pre>
+        <pre className="!bg-background border">@import 'shadcn-prose';</pre>
         <h2>Usage</h2>
         <p>
           Add a <code>prose</code> class to your content and you're good to go:
         </p>
-        <pre>{`<div className="prose">
+        <pre className="!bg-background border">{`<div className="prose">
   <h1>Hello world</h1>
   <p>This is a paragraph</p>
 </div>`}</pre>
@@ -195,7 +266,7 @@ const Home = () => (
           You can opt-out of the styles by adding the <code>not-prose</code>{' '}
           class:
         </p>
-        <pre>
+        <pre className="!bg-background border">
           {`<div className="prose">
   <h1>Hello world</h1>
   <div className="not-prose">
@@ -205,7 +276,7 @@ const Home = () => (
         </pre>
       </div>
     </header>
-    <main className="bg-secondary px-12 py-24 lg:col-span-2">
+    <main className="px-12 py-24 lg:col-span-2">
       <div className="prose mx-auto">
         <ProseDemo />
       </div>
