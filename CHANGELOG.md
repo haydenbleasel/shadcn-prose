@@ -1,3 +1,15 @@
+# v1.0.9 (Mon Jun 16 2025)
+
+#### ⚠️ Pushed to `main`
+
+- Update prose.css ([@haydenbleasel](https://github.com/haydenbleasel))
+
+#### Authors: 1
+
+- Hayden Bleasel ([@haydenbleasel](https://github.com/haydenbleasel))
+
+---
+
 # v1.0.8 (Sat May 24 2025)
 
 #### ⚠️ Pushed to `main`
