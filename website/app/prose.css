@@ -34,7 +34,11 @@
   }
 
   & p:not(.not-prose p) {
-    @apply leading-7 [&:not(:first-child)]:mt-6;
+    @apply leading-[175%] [&:not(:first-child)]:mt-6;
+  }
+
+  & li:not(.not-prose li) {
+    @apply leading-[175%];
   }
 
   & a:not(.not-prose a) {
