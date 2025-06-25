@@ -1,3 +1,15 @@
+# v1.0.10 (Wed Jun 25 2025)
+
+#### 🐛 Bug Fix
+
+- Bump tailwindcss from 4.1.7 to 4.1.8 [#4](https://github.com/haydenbleasel/shadcn-prose/pull/4) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v1.0.9 (Mon Jun 16 2025)
 
 #### ⚠️ Pushed to `main`
