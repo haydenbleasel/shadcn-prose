@@ -26,8 +26,8 @@
   "homepage": "https://github.com/haydenbleasel/shadcn-prose#readme",
   "devDependencies": {
     "@auto-it/first-time-contributor": "^11.3.0",
-    "@biomejs/biome": "1.9.4",
-    "ultracite": "4.2.5",
-    "tailwindcss": "^4"
+    "@biomejs/biome": "2.0.6",
+    "tailwindcss": "^4",
+    "ultracite": "5.0.29"
   }
 }
