@@ -1,3 +1,22 @@
+# v1.0.11 (Wed Jul 02 2025)
+
+#### ⚠️ Pushed to `main`
+
+- Misc formatting fixes ([@haydenbleasel](https://github.com/haydenbleasel))
+- Update Ultracite ([@haydenbleasel](https://github.com/haydenbleasel))
+- Update dependabot.yml ([@haydenbleasel](https://github.com/haydenbleasel))
+
+#### 🔩 Dependency Updates
+
+- Bump tailwindcss from 4.1.8 to 4.1.11 [#5](https://github.com/haydenbleasel/shadcn-prose/pull/5) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Hayden Bleasel ([@haydenbleasel](https://github.com/haydenbleasel))
+
+---
+
 # v1.0.10 (Wed Jun 25 2025)
 
 #### 🐛 Bug Fix
