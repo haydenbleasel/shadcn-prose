@@ -3,12 +3,14 @@ updates:
   
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
+    labels: ["dependencies"]
     directory: "/"
     schedule:
       interval: "monthly"
 
   # Maintain dependencies for npm
   - package-ecosystem: "npm"
+    labels: ["dependencies"]
     directory: "/"
     schedule:
       interval: "monthly"
