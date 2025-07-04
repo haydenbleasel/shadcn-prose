@@ -1,3 +1,15 @@
+# v1.0.12 (Fri Jul 04 2025)
+
+#### 🐛 Bug Fix
+
+- Bump next from 15.3.2 to 15.3.3 in /website in the npm_and_yarn group across 1 directory [#8](https://github.com/haydenbleasel/shadcn-prose/pull/8) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v1.0.11 (Wed Jul 02 2025)
 
 #### ⚠️ Pushed to `main`
