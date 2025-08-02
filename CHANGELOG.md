@@ -1,3 +1,16 @@
+# v1.1.0 (Sat Aug 02 2025)
+
+#### 🚀 Enhancement
+
+- Bump @biomejs/biome from 2.0.6 to 2.1.3 [#9](https://github.com/haydenbleasel/shadcn-prose/pull/9) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump ultracite from 5.0.29 to 5.1.2 [#10](https://github.com/haydenbleasel/shadcn-prose/pull/10) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v1.0.12 (Fri Jul 04 2025)
 
 #### 🐛 Bug Fix
