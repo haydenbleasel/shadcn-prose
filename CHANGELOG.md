@@ -1,3 +1,15 @@
+# v1.1.1 (Tue Sep 02 2025)
+
+#### 🐛 Bug Fix
+
+- Bump tailwindcss from 4.1.11 to 4.1.12 [#13](https://github.com/haydenbleasel/shadcn-prose/pull/13) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v1.1.0 (Sat Aug 02 2025)
 
 #### 🚀 Enhancement
