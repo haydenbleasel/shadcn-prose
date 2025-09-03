@@ -28,6 +28,6 @@
     "@auto-it/first-time-contributor": "^11.3.0",
     "@biomejs/biome": "2.2.2",
     "tailwindcss": "^4",
-    "ultracite": "5.3.0"
+    "ultracite": "5.3.2"
   }
 }

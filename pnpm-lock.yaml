@@ -18,8 +18,8 @@ importers:
         specifier: ^4
         version: 4.1.12
       ultracite:
-        specifier: 5.3.0
-        version: 5.3.0(@types/node@22.15.18)(typescript@5.8.3)
+        specifier: 5.3.2
+        version: 5.3.2(@types/node@22.15.18)(typescript@5.8.3)
 
 packages:
 
@@ -1567,8 +1567,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ultracite@5.3.0:
-    resolution: {integrity: sha512-h9EXOPoGTFOVhNALW+BI1qJ11R31mvtn+xFzn/CZ/xPBgdqfKT4BE1ZkmL+V3MNRnWDgNdNZC/fqOiIKFmvl7A==}
+  ultracite@5.3.2:
+    resolution: {integrity: sha512-GhTrLIvs4JP0vnwLJpeGGc/pCTKcqAnz00BRMUTKy8YSukI/9Ct2MobLbJQjs4mWSEN9WMWAPFsgZ23htPOEJw==}
     hasBin: true
 
   unbox-primitive@1.1.0:
@@ -3340,7 +3340,7 @@ snapshots:
 
   typescript@5.8.3: {}
 
-  ultracite@5.3.0(@types/node@22.15.18)(typescript@5.8.3):
+  ultracite@5.3.2(@types/node@22.15.18)(typescript@5.8.3):
     dependencies:
       '@clack/prompts': 0.11.0
       deepmerge: 4.3.1
