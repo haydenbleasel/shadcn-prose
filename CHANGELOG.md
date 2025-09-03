@@ -1,3 +1,31 @@
+# v1.2.0 (Wed Sep 03 2025)
+
+#### 🚀 Enhancement
+
+- Bump next from 15.4.7 to 15.5.2 in /website in the npm_and_yarn group across 1 directory [#17](https://github.com/haydenbleasel/shadcn-prose/pull/17) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### 🐛 Bug Fix
+
+- Bump ultracite from 5.3.0 to 5.3.2 [#18](https://github.com/haydenbleasel/shadcn-prose/pull/18) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### ⚠️ Pushed to `main`
+
+- Update dependabot.yml ([@haydenbleasel](https://github.com/haydenbleasel))
+
+#### 🔩 Dependency Updates
+
+- Bump next from 15.3.3 to 15.4.7 in /website in the npm_and_yarn group across 1 directory [#12](https://github.com/haydenbleasel/shadcn-prose/pull/12) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump actions/checkout from 4 to 5 [#14](https://github.com/haydenbleasel/shadcn-prose/pull/14) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump @biomejs/biome from 2.1.3 to 2.2.2 [#15](https://github.com/haydenbleasel/shadcn-prose/pull/15) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump ultracite from 5.1.2 to 5.3.0 [#16](https://github.com/haydenbleasel/shadcn-prose/pull/16) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Hayden Bleasel ([@haydenbleasel](https://github.com/haydenbleasel))
+
+---
+
 # v1.1.1 (Tue Sep 02 2025)
 
 #### 🐛 Bug Fix
