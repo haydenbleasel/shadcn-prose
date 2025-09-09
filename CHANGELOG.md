@@ -1,3 +1,15 @@
+# v1.2.1 (Tue Sep 09 2025)
+
+#### 🐛 Bug Fix
+
+- Bump vite from 7.1.4 to 7.1.5 in the npm_and_yarn group across 1 directory [#19](https://github.com/haydenbleasel/shadcn-prose/pull/19) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v1.2.0 (Wed Sep 03 2025)
 
 #### 🚀 Enhancement
