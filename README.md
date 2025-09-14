@@ -1,28 +1,13 @@
 # shadcn-prose
 
-A drop-in replacement for `@tailwindcss/typography`, designed for use with shadcn/ui. Includes headings, paragraphs, lists and more.
+This library has been migrated to a Kibo UI component called [Typography](https://www.kibo-ui.com/components/typography).
 
-## Installation
+This means the CSS is installed in your `globals.css` and it's much easier to override than this library.
 
-Simply install the package:
+You can install with:
 
-```bash
-npm i shadcn-prose
+```
+npx kibo-ui@latest add typography
 ```
 
-Then update your `globals.css`:
-
-```css
-@import 'shadcn-prose';
-```
-
-## Usage
-
-Add a `prose` class to your content and you're good to go:
-
-```tsx
-<div className="prose">
-  <h1>Hello world</h1>
-  <p>This is a paragraph</p>
-</div>
-```
+Enjoy!
